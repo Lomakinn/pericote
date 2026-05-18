@@ -236,9 +236,27 @@
     }
 
     .primary:active,
+    .download-link:active,
     .round:active,
     .ghost:active {
       transform: scale(0.97);
+    }
+
+    .download-link {
+      display: inline-grid;
+      place-items: center;
+      width: min(calc(100vw - 36px), 220px);
+      min-height: 44px;
+      margin-top: 10px;
+      border: 1px solid rgba(0, 188, 212, 0.34);
+      border-radius: 10px;
+      background: rgba(0, 188, 212, 0.08);
+      color: var(--cyan);
+      font-weight: 950;
+      font-size: 12px;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
     }
 
     .status-row {
@@ -919,6 +937,7 @@
               <p class="subtitle">Система 9.4.0 // автономный терминал</p>
             </div>
             <button class="primary" data-action="start">Запустить синхронизацию</button>
+            <a class="download-link" href="https://disk.yandex.ru/d/E2Nf9uvCMgDwxw" target="_blank" rel="noopener">Скачать</a>
             <div class="status-row" aria-hidden="true">
               <div>Защита: Омега</div>
               <div>Канал: локальный оффлайн</div>
