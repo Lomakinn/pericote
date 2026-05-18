@@ -1,0 +1,6 @@
+{
+  "name": "Взлом Перикота",
+  "description": "Мини-игра по взлому терминала, вдохновленная эстетикой и механикой современных научно-популярных фильмов.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
